@@ -18,6 +18,7 @@ There are 3 parts of this data as following:
             which state they belong,duration etc. 
             
 The following process will be performed as part of this data analysis:
+
         1. Data will be read from Amazon s3 using spark read. 
         2. Using Spark DataFrames the data will be manipulated to get the required output as Fact and Dimension tables.
         3. Manipulated data will be stored into the s3 as Parquet format to read further for analysis.
